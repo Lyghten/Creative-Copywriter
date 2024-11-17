@@ -1,0 +1,109 @@
+/* General Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #0f1f16;
+  color: #e6e6e6;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  color: #2b7a66;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Header */
+header {
+  background-color: #2b2b2b;
+  padding: 20px;
+}
+
+header p {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* Featured Book */
+.featured-book {
+  text-align: center;
+  padding: 20px;
+}
+
+.book-advertisement img {
+  width: 200px;
+  border: 2px solid #2b7a66;
+  margin: 10px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #2b7a66;
+  color: #e6e6e6;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #21997d;
+}
+
+/* Cart Section */
+.cart {
+  background-color: #2b2b2b;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+#cart-items {
+  padding: 10px;
+  border: 1px solid #2b7a66;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Newsletter Section */
+.newsletter {
+  background-color: #2b2b2b;
+  padding: 20px;
+  text-align: center;
+}
+
+.newsletter input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #2b7a66;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #2b2b2b;
+  padding: 20px;
+}
+
+footer .social-links {
+  text-align: center;
+}
+
+footer .social-links a {
+  margin: 5px;
+  color: #2b7a66;
+  text-decoration: none;
+}
+
+footer .social-links a:hover {
+  text-decoration: underline;
+}
